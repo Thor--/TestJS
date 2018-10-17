@@ -40,8 +40,8 @@ looker.plugins.visualizations.add({
          // require proper data input
     handleErrors: function(data, resp) {
       var min_mes, max_mes, min_dim, max_dim, min_piv, max_piv;
-      min_mes = 5
-      max_mes = 5
+      min_mes = 1
+      max_mes = 500
       min_dim = 1
       max_dim = 1
       min_piv = 0
