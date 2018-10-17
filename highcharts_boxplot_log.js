@@ -223,6 +223,7 @@ looker.plugins.visualizations.add({
           yAxis: {
             min: config.yAxisMinValue,
             max: config.yAxisMaxValue,
+            type: 'logarithmic',
             title: {
               text: yAxisLabel,
               style: {
